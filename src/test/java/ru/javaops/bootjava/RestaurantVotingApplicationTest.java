@@ -1,13 +1,13 @@
-package ru.redandspring.javaops.hat;
+package ru.javaops.bootjava;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
-// @SpringBootTest
-class HatApplicationTests {
 
-    // @Test
+@SpringBootTest
+class RestaurantVotingApplicationTest {
+
+    @Test
     void contextLoads() {
     }
-
 }
