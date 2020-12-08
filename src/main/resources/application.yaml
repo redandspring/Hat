@@ -28,3 +28,8 @@ spring:
     password:
   # http://localhost:8080/h2-console
   h2.console.enabled: true
+
+  data.rest:
+    #  https://docs.spring.io/spring-data/rest/docs/current/reference/html/#getting-started.basic-settings
+    basePath: /api
+    returnBodyOnCreate: true
